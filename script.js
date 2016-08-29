@@ -25,13 +25,14 @@ function addVodka(){
 }
 
 function checkout(){
+	//console.log("Hello, Amy");//testing to see if checkout works
 	var total = 0;
-	for (var i = 0; i<cart.lenth; i++){
-		total = total + cart [i];
+	for (var i = 0; i<cart.length; i++){
+		//console.log("Testing");//not making it this far...
+		total = total + cart[i];
 		//cart.push(total);
-		console.log(total);
 		cart.clear;
-	}
+	}console.log(total);//moved print out of the loop
 }
 
 
@@ -51,5 +52,5 @@ for(var i = 0;i< items.length;i++){
 	console.log(items[i], prices[i]);
 }
 total = (items[i], prices[i]);
-
+*/
 
